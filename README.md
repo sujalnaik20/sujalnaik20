@@ -20,24 +20,11 @@ Somewhere between pixels and code, turning ideas into digital experiences worth 
 
 ## ✦ About Me
 
-<table>
-<tr>
-<td width="62%" valign="top">
+<div align="center">
 
-Hey, I'm **Sujal** — a second-year B.E. student in **Artificial Intelligence & Machine Learning** at **Canara Engineering College**.
+<img src="./assets/about-me-overlay.svg" width="100%" alt="About Sujal, with blue dreaming artwork blending behind the text" />
 
-I enjoy turning ideas into **clean, interactive websites** and digital experiences that look just as good as they work.
-
-Right now, I’m exploring **frontend development** and **UI/UX design**, while also bringing ideas to life through **video editing** and **motion graphics**.
-
-I like learning by building, experimenting with new ideas, and slowly turning random concepts into something worth showing off.
-
-</td>
-<td width="38%" align="right" valign="top">
-<img width="100%" alt="Blue dreaming aesthetic artwork" src="./assets/dreaming.png"/>
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
@@ -110,7 +97,7 @@ I like learning by building, experimenting with new ideas, and slowly turning ra
 
 ---
 
-## ✦ Commit Activity
+## ✦ Pac-Man Commit Activity
 
 <div align="center">
 
