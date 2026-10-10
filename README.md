@@ -110,7 +110,7 @@ I like learning by building, experimenting with new ideas, and slowly turning ra
 
 ---
 
-## ✦ Pac-Man Commit Activity
+## ✦ Commit Activity
 
 <div align="center">
 
