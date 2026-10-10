@@ -11,7 +11,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=25&duration=2600&pause=1100&color=60A5FA&center=true&vCenter=true&width=760&height=64&lines=> If+it+compiles%2C+it%27s+staying.;> Just+build+cool+stuff.;> Code.+Build.+Improve.+Repeat.;> Code+like+a+menace." alt="Animated motto: coding and creativity" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=25&duration=2600&pause=1100&color=60A5FA&center=true&vCenter=true&width=760&height=64&lines=If+it+compiles%2C+it%27s+staying.;> Just+build+cool+stuff.;Code.+Build.+Improve.+Repeat.;Code+like+a+menace." alt="Animated motto: coding and creativity" />
 
 Somewhere between pixels and code, turning ideas into digital experiences worth exploring.
 
