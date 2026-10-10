@@ -4,14 +4,13 @@
 
 # Hi, I'm Sujal
 
-<a href="#-tech-stack"><img src="https://img.shields.io/badge/Aspiring-UI%2FUX_Designer-9333EA?style=for-the-badge&labelColor=111827" alt="Aspiring UI/UX Designer" /></a>
-<a href="#-tech-stack"><img src="https://img.shields.io/badge/Frontend-Developer-2563EB?style=for-the-badge&labelColor=111827" alt="Frontend Developer" /></a>
-<a href="#-tech-stack"><img src="https://img.shields.io/badge/Creative-Editor-7C3AED?style=for-the-badge&labelColor=111827" alt="Creative Editor" /></a>
-<a href="https://www.google.com/maps/search/?api=1&query=Mangalore%2C%20Karnataka%2C%20India"><img src="https://img.shields.io/badge/Location-Mangalore%2C_Karnataka-4F46E5?style=for-the-badge&labelColor=111827" alt="Location: Mangalore, Karnataka" /></a>
+<a href="#-tech-stack"><img src="./assets/uiux-button.svg" alt="Aspiring UI/UX Designer" height="42"/></a>&nbsp;<a href="#-tech-stack"><img src="./assets/frontend-button.svg" alt="Frontend Developer" height="42"/></a>
+<br/>
+<a href="#-tech-stack"><img src="./assets/creative-button.svg" alt="Creative Editor" height="42"/></a>&nbsp;<a href="https://www.google.com/maps/search/?api=1&amp;query=Mangalore%2C%20Karnataka%2C%20India"><img src="./assets/location-button.svg" alt="Mangalore, Karnataka" height="42"/></a>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=25&duration=2600&pause=1100&color=60A5FA&center=true&vCenter=true&width=760&height=64&lines=If+it+compiles%2C+it%27s+staying.;> Just+build+cool+stuff.;Code.+Build.+Improve.+Repeat.;Code+like+a+menace." alt="Animated motto: coding and creativity" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=25&duration=2600&pause=1100&color=60A5FA&center=true&vCenter=true&width=760&height=64&lines=%3E+If+it+compiles%2C+it%27s+staying.;%3E+Just+build+cool+stuff.;%3E+Code.+Build.+Improve.+Repeat.;%3E+Code+like+a+menace." alt="Animated motto: coding and creativity" />
 
 Somewhere between pixels and code, turning ideas into digital experiences worth exploring.
 
@@ -21,11 +20,24 @@ Somewhere between pixels and code, turning ideas into digital experiences worth 
 
 ## ✦ About Me
 
-<div align="center">
+<table>
+<tr>
+<td width="62%" valign="top">
 
-<img width="100%" alt="About Sujal Naik on blue dreaming artwork background" src="./assets/about-me-bg.png"/>
+Hey, I'm **Sujal** — a second-year B.E. student in **Artificial Intelligence & Machine Learning** at **Canara Engineering College**.
 
-</div>
+I enjoy turning ideas into **clean, interactive websites** and digital experiences that look just as good as they work.
+
+Right now, I’m exploring **frontend development** and **UI/UX design**, while also bringing ideas to life through **video editing** and **motion graphics**.
+
+I like learning by building, experimenting with new ideas, and slowly turning random concepts into something worth showing off.
+
+</td>
+<td width="38%" align="right" valign="top">
+<img width="100%" alt="Blue dreaming aesthetic artwork" src="./assets/dreaming.png"/>
+</td>
+</tr>
+</table>
 
 ---
 
