@@ -72,7 +72,7 @@ Building practical AI tools, clean web apps, and polished digital experiences.
 
 ---
 
-## 👾 Pac-Man Commit Activity
+## 👾 Commit Activity
 
 <div align="center">
 
