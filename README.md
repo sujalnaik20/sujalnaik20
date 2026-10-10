@@ -4,18 +4,16 @@
 
 # Hi, I'm Sujal
 
-<a href="#-about-me"><img src="https://img.shields.io/badge/AI%2FML-Developer-7C3AED?style=for-the-badge&labelColor=111827&color=4F46E5" alt="AI ML Developer"/></a>
-<a href="#-tech-stack"><img src="https://img.shields.io/badge/Web-Developer-2563EB?style=for-the-badge&labelColor=111827&color=1D4ED8" alt="Web Developer"/></a>
-<a href="#-tech-stack"><img src="https://img.shields.io/badge/UI%2FUX-Designer-8B5CF6?style=for-the-badge&labelColor=111827&color=7C3AED" alt="UI UX Designer"/></a>
-<a href="#-tech-stack"><img src="https://img.shields.io/badge/Creative-Editor-6D28D9?style=for-the-badge&labelColor=111827&color=9333EA" alt="Creative Editor"/></a>
-<br/>
-<a href="https://www.google.com/maps/place/Mangalore"><img src="https://img.shields.io/badge/Mangalore-Karnataka_India-4338CA?style=for-the-badge&labelColor=111827&color=7C3AED" alt="Mangalore Karnataka India"/></a>
+<a href="#-tech-stack"><img src="https://img.shields.io/badge/Aspiring-UI%2FUX_Designer-9333EA?style=for-the-badge&labelColor=111827" alt="Aspiring UI/UX Designer" /></a>
+<a href="#-tech-stack"><img src="https://img.shields.io/badge/Frontend-Developer-2563EB?style=for-the-badge&labelColor=111827" alt="Frontend Developer" /></a>
+<a href="#-tech-stack"><img src="https://img.shields.io/badge/Creative-Editor-7C3AED?style=for-the-badge&labelColor=111827" alt="Creative Editor" /></a>
+<a href="https://www.google.com/maps/search/?api=1&query=Mangalore%2C%20Karnataka%2C%20India"><img src="https://img.shields.io/badge/Location-Mangalore%2C_Karnataka-4F46E5?style=for-the-badge&labelColor=111827" alt="Location: Mangalore, Karnataka" /></a>
 
 <br/>
 
-`Just Build Cool Stuff`
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=25&duration=2600&pause=1100&color=60A5FA&center=true&vCenter=true&width=760&height=64&lines=If+it+compiles%2C+it%27s+staying.;Just+build+cool+stuff.;Code.+Build.+Improve.+Repeat.;Code+like+a+menace." alt="Animated motto: coding and creativity" />
 
-Building practical AI tools, clean web apps, and polished digital experiences.
+Somewhere between pixels and code, turning ideas into digital experiences worth exploring.
 
 </div>
 

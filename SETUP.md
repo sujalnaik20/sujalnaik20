@@ -19,3 +19,7 @@ Coding Profiles: the four badges currently link to platform homepages. Replace t
 
 
 Update: the separate role strip has been removed. The top intro now contains clickable role/location buttons inside the main header area. Replace the placeholder Gmail and LinkedIn URLs in README.md before publishing.
+
+About Me text is baked into assets/about-me-bg.png and has been rewritten.
+
+Final update: intro tagline changed to approved text; About Me artwork refreshed to use approved shorter personal description. Gmail and LinkedIn are placeholders until provided.
