@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" alt="header" src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0f19,100:0b0f19&height=230&section=header&text=Hi%20%F0%9F%91%8B%2C%20I'm%20Sujal&fontSize=42&fontColor=ffffff&desc=AI%2FML%20Developer&descAlignY=68&descSize=22"/>
+<img width="100%" alt="Blue anime eyes cyberpunk header" src="./assets/anime-eyes-banner.png"/>
 
 # Hi 👋, I'm Sujal
 
@@ -16,24 +16,11 @@ Building practical AI tools, clean web apps, and polished digital experiences.
 
 ## 🚀 About Me
 
-<table>
-<tr>
-<td width="62%" valign="top">
+<div align="center">
 
-Sujal here — a second-year B.E. student in Artificial Intelligence & Machine Learning at Canara Engineering College focused on **AI/ML**, **development**, and **design**.
+<img width="100%" alt="About Sujal Naik on blue dreaming artwork background" src="./assets/about-me-bg.png"/>
 
-I enjoy building useful, production-style projects with a balance of **functionality** and **good visuals**.
-
-Currently, I’m learning and building with **Python, React, Next.js, Node.js, MongoDB, and UI/UX workflows**, while also sharpening my editing and motion design skills.
-
-My goal is simple: **build smart products, write clean code, and grow into a strong software engineer who creates meaningful things.**
-
-</td>
-<td width="38%" align="center" valign="top">
-<img width="100%" alt="dreaming aesthetic" src="./assets/dreaming.png"/>
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
@@ -79,7 +66,7 @@ My goal is simple: **build smart products, write clean code, and grow into a str
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=sujalnaik20&theme=github-dark&hide_border=true&bg_color=0D1117&color=c9d1d9&line=58a6ff&point=ffffff" alt="Activity graph"/>
+<img width="100%" src="https://raw.githubusercontent.com/sujalnaik20/sujalnaik20/output/activity-graph.svg" alt="Activity graph"/>
 
 </div>
 

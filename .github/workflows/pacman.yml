@@ -5,8 +5,7 @@ on:
   schedule:
     - cron: '0 2 * * *'
   push:
-    branches:
-      - main
+    branches: [main]
 
 permissions:
   contents: write
@@ -16,12 +15,68 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Generate Pac-Man contribution graphs
+      - name: Generate animated Pac-Man SVGs
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: sujalnaik20
           games: 'pacman'
-      - name: Publish animated SVG files
+
+      - name: Generate self-hosted activity graph SVG
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const login = 'sujalnaik20';
+            const query = `query($login: String!) {
+              user(login: $login) {
+                contributionsCollection {
+                  contributionCalendar {
+                    weeks { contributionDays { date contributionCount } }
+                  }
+                }
+              }
+            }`;
+            const result = await github.graphql(query, { login });
+            const days = result.user.contributionsCollection.contributionCalendar.weeks
+              .flatMap(week => week.contributionDays).slice(-31);
+            if (!days.length) throw new Error('No GitHub contribution data returned');
+            const width = 920, height = 240;
+            const l = 56, r = 22, top = 42, bottom = 50;
+            const pw = width - l - r, ph = height - top - bottom;
+            const max = Math.max(4, ...days.map(d => d.contributionCount));
+            const x = i => l + (i * pw / Math.max(1, days.length - 1));
+            const y = v => top + ph - v / max * ph;
+            const p = days.map((d, i) => `${x(i).toFixed(1)},${y(d.contributionCount).toFixed(1)}`).join(' ');
+            const area = `${l},${top+ph} ${p} ${l+pw},${top+ph}`;
+            const lines = Array.from({ length: 5 }, (_, i) => {
+              const v = Math.round(max * i / 4);
+              const yy = y(max * i / 4).toFixed(1);
+              return `<line x1="${l}" y1="${yy}" x2="${width-r}" y2="${yy}" stroke="#263444" stroke-width="1"/><text x="${l-12}" y="${Number(yy)+4}" text-anchor="end" font-size="12" fill="#8896aa">${v}</text>`;
+            }).join('');
+            const title = `${login} • Last 31 days`;
+            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="GitHub daily contributions over the past 31 days">
+              <rect width="100%" height="100%" rx="12" fill="#0D1117"/>
+              <text x="${l}" y="26" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#e6edf3">${title}</text>
+              ${lines}
+              <polygon points="${area}" fill="#58a6ff" fill-opacity=".12"/>
+              <polyline points="${p}" fill="none" stroke="#58a6ff" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+              ${days.map((d,i) => `<circle cx="${x(i).toFixed(1)}" cy="${y(d.contributionCount).toFixed(1)}" r="2.5" fill="#82caff"/>`).join('')}
+              <text x="${l}" y="${height-18}" font-family="Arial,sans-serif" font-size="12" fill="#8896aa">${days[0].date}</text>
+              <text x="${width-r}" y="${height-18}" font-family="Arial,sans-serif" font-size="12" fill="#8896aa" text-anchor="end">${days[days.length-1].date}</text>
+            </svg>`;
+            fs.mkdirSync('dist', { recursive: true });
+            fs.writeFileSync('dist/activity-graph.svg', svg);
+            core.info('Generated dist/activity-graph.svg');
+
+      - name: Verify SVG outputs
+        run: |
+          ls -lh dist/
+          test -s dist/activity-graph.svg
+          test -s dist/pacman-contribution-graph.svg
+          test -s dist/pacman-contribution-graph-dark.svg
+
+      - name: Publish SVG files to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
