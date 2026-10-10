@@ -11,3 +11,11 @@ This setup does not use the paused third-party Activity Graph service. It genera
 
 ## Header update
 The old text-rendered banner was replaced with your exact blue anime-eyes image in `assets/anime-eyes-banner.png`. Do not omit this file when pushing. Only one greeting remains below it.
+
+
+Updated note: The Tech Stack section is now categorized into Programming, Web Development, UI/UX, Creative Software, and Tools.
+
+Coding Profiles: the four badges currently link to platform homepages. Replace them with your personal profile URLs when known.
+
+
+Update: the separate role strip has been removed. The top intro now contains clickable role/location buttons inside the main header area. Replace the placeholder Gmail and LinkedIn URLs in README.md before publishing.

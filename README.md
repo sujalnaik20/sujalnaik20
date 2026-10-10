@@ -2,9 +2,16 @@
 
 <img width="100%" alt="Blue anime eyes cyberpunk header" src="./assets/anime-eyes-banner.png"/>
 
-# Hi 👋, I'm Sujal
+# Hi, I'm Sujal
 
-### AI/ML Developer
+<a href="#-about-me"><img src="https://img.shields.io/badge/AI%2FML-Developer-7C3AED?style=for-the-badge&labelColor=111827&color=4F46E5" alt="AI ML Developer"/></a>
+<a href="#-tech-stack"><img src="https://img.shields.io/badge/Web-Developer-2563EB?style=for-the-badge&labelColor=111827&color=1D4ED8" alt="Web Developer"/></a>
+<a href="#-tech-stack"><img src="https://img.shields.io/badge/UI%2FUX-Designer-8B5CF6?style=for-the-badge&labelColor=111827&color=7C3AED" alt="UI UX Designer"/></a>
+<a href="#-tech-stack"><img src="https://img.shields.io/badge/Creative-Editor-6D28D9?style=for-the-badge&labelColor=111827&color=9333EA" alt="Creative Editor"/></a>
+<br/>
+<a href="https://www.google.com/maps/place/Mangalore"><img src="https://img.shields.io/badge/Mangalore-Karnataka_India-4338CA?style=for-the-badge&labelColor=111827&color=7C3AED" alt="Mangalore Karnataka India"/></a>
+
+<br/>
 
 `Just Build Cool Stuff`
 
@@ -14,7 +21,7 @@ Building practical AI tools, clean web apps, and polished digital experiences.
 
 ---
 
-## 🚀 About Me
+## ✦ About Me
 
 <div align="center">
 
@@ -24,33 +31,54 @@ Building practical AI tools, clean web apps, and polished digital experiences.
 
 ---
 
-## 🤝 Connect
+## ✦ Connect
 
 <div align="center">
 
+<a href="mailto:yourgmail@example.com"><img src="https://skillicons.dev/icons?i=gmail" height="48" alt="Gmail"/></a>
+&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/sujalnaik20"><img src="https://skillicons.dev/icons?i=github" height="48" alt="GitHub"/></a>
 &nbsp;&nbsp;&nbsp;
-<a href="https://studysnap-aii.streamlit.app/"><img src="https://img.shields.io/badge/StudySnap_AI-Live_Demo-111827?style=for-the-badge&logo=streamlit&logoColor=white" alt="StudySnap AI Demo"/></a>
+<a href="https://www.linkedin.com/in/your-linkedin"><img src="https://skillicons.dev/icons?i=linkedin" height="48" alt="LinkedIn"/></a>
 
 </div>
 
 ---
 
-## 💻 Tech Stack
+## ✦ Coding Profiles
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,js,react,nextjs,nodejs,express,mongodb,mysql,git,github,vscode,html,css,c,aws&perline=8" alt="Tech stack"/>
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=figma,pr,ae,tensorflow,firebase,postman,docker&perline=7" alt="More tools"/>
+<a href="https://leetcode.com/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+<a href="https://www.geeksforgeeks.org/"><img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" /></a>
+<a href="https://www.hackerrank.com/"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank" /></a>
+<a href="https://www.codechef.com/"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" /></a>
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## ✦ Tech Stack
+
+### Development
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,js,c,cpp,html,css,react,nextjs,nodejs,express,mongodb,git,github,vscode&perline=7" alt="Programming, web development, and developer tools" />
+
+</div>
+
+### Design & Creativity
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=figma,pr,ae&perline=7" alt="Figma, Adobe Premiere Pro, and After Effects" />
+
+</div>
+
+---
+
+## ✦ GitHub Stats
 
 <div align="center">
 
@@ -62,7 +90,7 @@ Building practical AI tools, clean web apps, and polished digital experiences.
 
 ---
 
-## 📈 Activity Graph
+## ✦ Activity Graph
 
 <div align="center">
 
@@ -72,7 +100,7 @@ Building practical AI tools, clean web apps, and polished digital experiences.
 
 ---
 
-## 👾 Commit Activity
+## ✦ Pac-Man Commit Activity
 
 <div align="center">
 
@@ -86,7 +114,7 @@ Building practical AI tools, clean web apps, and polished digital experiences.
 
 ---
 
-## ✨ Featured Project
+## ✦ Featured Project
 
 <div align="center">
 
